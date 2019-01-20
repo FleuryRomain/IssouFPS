@@ -143,6 +143,7 @@ Player.prototype = {
      */
     handleUserMouse : function(evt, pickInfo) {
         this.weapon.fire(pickInfo);
+        
     }
 
 };

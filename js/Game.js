@@ -53,18 +53,10 @@ Game = function(canvasId) {
 
 
 Game.prototype = {
-    /**
-     * Init the environment of the game / skybox, camera, ...
-     */
+
     _initScene : function(engine) {
 
         var scene = new BABYLON.Scene(engine);
-
-        // Camera attached to the canvas
-//        var camera = new BABYLON.ArcRotateCamera("Camera", 0, Math.PI/5, 10, BABYLON.Vector3.Zero(), scene);
-//        camera.maxZ = 1000;
-//        camera.attachControl(engine.getRenderingCanvas());
-//
         axis(scene, 5);
 
 

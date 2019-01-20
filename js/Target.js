@@ -29,3 +29,4 @@ Target.prototype.constructor = Target;
 Target.prototype.explode = function() {
     this.dispose();
 };
+

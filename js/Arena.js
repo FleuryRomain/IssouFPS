@@ -11,8 +11,6 @@ Arena = function(game) {
 
     // The ground
     var ground = BABYLON.Mesh.CreateGround("ground",  this.size,  this.size, 2, this.game.scene);
-//    var ground = BABYLON.Mesh.CreateBox("ground",  this.size, scene);
-//    ground.position.y = -50;
     this._deactivateSpecular(ground);
     ground.checkCollisions = true;
 
